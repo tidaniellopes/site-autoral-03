@@ -1,0 +1,1072 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+	font-family: 'Lato', 'Montserrat', sans-serif;
+}
+
+html,body{
+    
+	height: 100%;
+}
+
+.container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1260px;
+}
+
+.clear{
+	clear: both;
+}
+
+.header-01{
+	width: 100%;
+	height: 70px;
+}
+
+header{
+	z-index: 10;
+	width: 100%;
+	height: auto;
+	padding: 4px 2%;
+	position: fixed;
+	background-color: white;
+}
+
+nav a{
+
+	color: inherit;
+	text-decoration: none;	
+}
+
+header .logo{
+	background-image: url('../images/logoMetta2.png');
+	width: 250px;
+	height: 110px;
+	float: left;
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+header .menu-desktop{
+	line-height: 110px;
+	float: right;
+	font-size: 20px;
+	color: rgb(103, 104, 106);
+}
+
+header .menu-desktop li{
+	float: left;
+	margin-left: 40px;
+	list-style-type: none;
+}
+
+header .menu-desktop li a{
+
+	font-weight: bold;
+}
+
+.menu{
+	width: 36px;
+	height: 36px;
+	background-image: url('../images/menu-mobile.png');
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: right;
+	top:26px;
+	right: 10px;
+	display: none;
+}
+
+.menu-mobile{
+	width: 100%;
+	display: none;
+	text-align: center;
+
+}
+
+.menu-mobile li{
+	margin-top: 30px;
+	list-style-type: none;
+}
+
+.menu-mobile ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(103, 104, 106);
+	display: block;
+	padding: 10px 0;
+}
+
+.menu-mobile ul:nth-of-type(1) {
+	padding-bottom: 25px;
+}
+
+.section-01{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 68%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.section-01 .container{
+	
+	padding: 0 2%;
+}
+
+.section-01 .explicacao{
+	float: right;
+	width: 390px;
+	height: 460px;
+	background-color: white;
+	border: 20px solid rgb(103, 104, 106,0.8);
+	padding: 40px 50px;
+	margin-top: 84px;
+	margin-right: 40px;
+}
+
+.section-01 .explicacao h1{
+	text-align: center;
+	font-size: 27px;
+	color: rgb(38, 50, 90);
+	font-weight: 800;
+}
+
+.section-01 .explicacao p{
+	margin-top: 22px;
+	text-align: justify;
+	color: rgb(164, 164, 166);
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.section-02{
+	width: 100%; 
+	height: auto;
+	color: rgb(82, 94, 85);
+}
+
+.section-02 .container{
+	text-align: center; 
+	padding: 0 2%; 	
+}
+
+.section-02 .title{
+	padding: 30px;
+	text-align: center;
+	color: rgb(38, 50, 90);
+	margin: 60px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.section-02 .wraper-individual{
+	width: 25%; /*Cada coluna */
+	max-width: 200px;
+	height: 200px; /*Altura fixa */
+	margin:  30px; /*Margin entre eles */
+	display: inline-block; /*Alinha os display EM LINHA */
+}
+
+.section-02 .wraper-img{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.section-02 .wraper-individual h2{
+	text-align: center;
+	padding: 30px 0;
+	color: rgb(38, 50, 90);
+	font-weight: 500;
+}
+
+.section-02 .wraper-individual p{
+	text-align: justify;
+	color: rgb(164, 164, 166);
+	height: 400px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.section-03{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 2%;
+	margin-bottom: 60px;
+}
+
+.section-03 .container{
+	padding: 0;
+}
+
+.section-03 .title{
+	padding: 20px;
+	text-align: center;
+	color:white ;
+	background-color:rgb(38, 50, 90);
+	margin: 120px 2% 80px 2%;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.section-03 .flex-mosaico{
+    display: flex; /*Altera a propriedade display */
+	font-weight: 400;
+	margin-top: 80px;
+	padding: 0 2%;
+}
+
+.section-03 .flex-mosaico .item-1{
+	border-radius: 200px ;
+	width: 55%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	height: 300px;
+
+	background-color: blue;
+	
+	
+} 
+
+.section-03 .flex-mosaico .item-2{
+	width: 45%;
+	height: auto;
+	list-style-position: inside;
+	text-align: justify;
+	color:rgb(164, 164, 166);
+	margin: 0 2%;
+	padding: 0 5%;
+
+}
+
+.section-03 .flex-mosaico .item-2 h2{
+	font-size: 28px;
+	text-align: center;
+	color: rgb(38, 50, 90);
+	margin: 20px 2% 50px 2%;
+	
+	
+}
+
+
+.section-03-02{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background-image: linear-gradient(-180deg, rgb(38, 50, 90), rgb(164, 164, 166));
+	border-radius: 400px;
+	padding: 70px 2%;
+	margin: 20px solid white;
+}
+
+.section-03-02 .bg{
+	margin: 0 auto;
+	max-width: 700px;
+	
+}
+
+.section-03-02 h2{
+	text-align: center;
+	color:white;
+	font-size: 38px;
+	padding: 0 100px;
+}
+
+.section-03-02 .list{
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 22px;
+	color:white;
+	margin-top: 50px;
+	padding: 0 100px;
+}
+
+.section-03-02 .list ul li{
+	margin-top: 16px;
+}
+
+
+.open{
+	display: none;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+}
+	
+.section-03-02 .list-01{
+	float: left;
+	list-style-type: disc;
+}
+
+.section-03-02 .list-02{
+	float: right;
+	list-style-type: disc;
+}
+
+.section-04{
+	
+	max-width: 1360px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.section-04 .container{
+	width: 100%; 
+	
+}
+
+.section-04 .part1{
+	color: white;
+	float: right;
+	width: 40%;
+	padding: 64px 2%;
+	background: rgb(38, 50, 90);
+}
+
+.sewction-04 .wraper-part1{
+	max-width: 600px;
+	float: right;
+	padding:0 30px;
+}
+
+.section-04 .part1 h2{
+	font-weight: 300;
+	font-style: italic;
+	font-size: 23px;
+}
+
+.section-04 .part1 p{
+	font-size: 15px;
+	line-height: 35px;
+	margin-top:10px;
+	text-align: justify;
+}
+
+.section-04 .part2{
+	float: left;
+	width: 60%;
+	padding:16px 0;
+	margin-top: 2px;
+}
+
+.section-04 .scrollEquipe{
+	max-width: 900px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.section-04 .scroll-wraper{
+	width: 100%;
+}
+
+.section-04 .sobre-autor{
+	float: left;
+	width: 100%;
+}
+
+.section-04 .titulo-autor{
+	margin-top: 20px;
+	float: left;
+	width: 40%;
+}
+
+.section-04 .wraper-titulo-autor{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.section-04 .titulo-autor h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 21px;
+	
+}
+
+.section-04 .titulo-autor p{
+	font-size: 13px;
+	color: #232323;
+	font-style: italic;
+	font-weight: 300;
+	text-align: center;
+}
+
+.section-04 .titulo-autor .img-autor{
+	width: 100%;
+	max-width: 160px;
+	height:160px;
+	background-size: 100% 100%;
+	border-radius: 80px;
+	background-repeat: no-repeat;
+	
+	margin: 0 auto 12px auto;
+}
+
+.section-04 .texto-autor{
+	width: 100%;
+}
+
+.section-04 .texto-autor p{
+	color: #232323;
+	font-size: 18px;
+	float: right;
+	width: 60%;
+	margin-top: 90px;
+	text-align: justify;
+	font-weight: 400;
+	padding: 0 30px 0 30px;
+	color: rgb(164, 164, 166);
+}
+
+.section-04 .slider-bullets{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top:10px;
+	position: relative;
+	left: 15%;
+}
+
+.section-04 .slider-bullets span{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 8px;
+	border-radius: 8px;
+	background-color: rgb(200,200,200);
+}
+
+/*SECTION-05*/
+
+.section-05 .container{
+	text-align: center; 
+	padding: 0 2% 120px 2%;	
+}
+
+.section-05 .title-02{
+	
+	padding: 20px;
+	text-align: center;
+	color:white ;
+	background-color:rgb(38, 50, 90);
+	margin: 160px 2% 120px 2%;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.section-05 .wraper-individual-02{
+	width: 100%; /*Cada coluna */
+	min-width: 235px;
+	max-width: 325px;
+	margin:  30px; /*Margin entre eles */
+	display: inline-block; /*Alinha os display EM LINHA */
+	border: rgb(38, 50, 90) 2px solid;
+	border-radius: 14px 14px 10px 10px;
+	background-color: rgba(195, 195, 195,0.1);
+	padding: 0 0;
+}
+
+.section-05 .wraper-img-02{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.section-05 .wraper-individual-02 h2{
+	text-align: center;		
+	padding: 20px 0;
+	background-color: rgb(38, 50, 90);
+	color:rgb(250,250,250);
+	width: 100%;
+	font-weight: 500;
+	border-radius: 10px 10px 0 0;
+	font-size:26px;
+
+}
+
+.section-05 .wraper-individual-02 p{
+	height: 200px; /*Altura fixa */
+
+	padding: 40px 10% 10px 10%;
+	text-align: center;
+	color: rgb(38, 50, 90);
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.section-05 input{
+	cursor: pointer;
+	font-style: italic;
+	background-image: linear-gradient(to left,rgb(38, 50, 90) , rgba(133, 134, 136,0.7));
+	width: 70%;
+	height: 50px;
+	outline: none;
+	margin-top: 20px;
+	border-radius: 50px 50px 0px 50px;
+	border:0;
+	color:white;
+	font-size: 23px;
+	border: rgb(38, 50, 90) 5px solid;
+	border-top: 0;
+	border-left:0;
+	margin-bottom: 30px;
+}
+
+.section-05 input:hover{
+	background-image: linear-gradient(to left,rgb(78, 90, 130) , rgba(173, 174, 176,0.7));
+}
+
+/*FOOTER*/
+
+footer{
+
+	width: 100%;
+	height: auto;
+	padding: 04px 2%;	
+	background-color: rgba(185, 185, 185,0.2);
+}
+
+footer .part-01{
+	width: 40%;
+	float: left;
+}
+
+footer ul{
+	width: 100%;
+	float: right;
+	margin-top:40px;
+}
+
+footer ul li{
+	margin-top: 12px;
+	list-style-type: none;
+	
+}
+
+footer .part-01 img{
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+footer .part-01 p{
+	line-height: 32px;
+	font-size: 16px;
+	padding: 0 2%;
+
+}
+
+footer .part-02{
+	width: 60%;
+	float: right;
+	margin: 0 auto;
+}
+
+footer .part-02 p{
+	float: right;
+}
+
+footer .part-02 img{
+	width: 32px;
+	height: 32px;
+	margin-bo:40px
+	
+
+}
+
+footer .part-02 .map{
+	width: 50%;
+	float: right;
+	max-width: 240px;
+	height: 240px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+footer .part-02 .endereco{
+	width: 50%;
+	float: left;
+	max-width: 420px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+/*Responsivo*/
+
+@media screen and (max-width:430px){
+	
+	.section-02 .wraper-img{
+		width: 60px;
+		height: 60px;
+	}
+
+	.section-02 .wraper-individual h2{
+		text-align: center;
+		padding: 30px 0;
+		font-size: 22px;
+	}
+	
+	.section-02 .wraper-individual p{
+		font-size: 14px;
+	}
+
+	.section-03 .title{
+		padding: 20px;
+		text-align: center;
+		color:white ;
+		background-color:rgb(38, 50, 90);
+		margin: 80px 0 30px 0;
+		font-size: 40px;
+		font-weight: 500;
+	}
+
+}
+
+@media screen and (max-width:530px){
+
+	.section-01{
+		width: 100%;
+		height: auto;
+		min-height: 700px;
+		background-size: 172%;
+		background-position: 14% 70%;
+		padding: 0;
+	}
+
+	.section-03-02{
+		width: 100%;
+		height: 443px;
+		border-radius: 260px;
+		padding: 50px 2%;
+		
+	}
+	
+	.section-03-02 .bg{
+		margin: 0 auto;
+		max-width: 700px;
+	}
+	
+	.section-03-02 h2{
+		font-size: 24px;
+		padding: 0 80px;
+	}
+
+	.section-03-02 p{
+		font-size: 14px;
+	}
+
+	.section-03-02 .list-01{
+		float: none;
+		text-align: center;
+		list-style-type: none;
+
+		
+	}
+	
+	.section-03-02 .list-02{
+		float: none;
+		text-align: center;
+		list-style-type: none;	
+	}
+
+	.section-03-02 .list{
+		
+		color:white;
+		margin-top: 50px;
+		padding: 0 2%;
+	}
+
+	.open{
+		display: block;
+		width: 70px;
+		height: 70px;
+		border-radius: 35px;
+		background-color:rgb(38, 50, 90);
+		margin: 0 auto;
+		position: relative;
+		top: -28px;
+		background-image: url('../images/arrow.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		border: 14px  solid white
+	}
+
+	.open:hover{
+		background-color:rgb(58, 70, 110);
+	}
+
+}
+
+@media screen and (max-width:650px){
+
+	.menu{
+		position: fixed;
+		display: inline-block;
+	}
+
+	header .logo{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.menu-desktop{
+		display: none;
+	}
+
+	.section-02 {
+		padding: 0 2%;
+		margin: 0;
+	}
+
+	.section-02 .title{
+		padding: 0px;
+		text-align: center;
+		margin: 60px;
+		font-size: 28px;
+		font-weight: 600;
+	}
+	
+	.section-02 .wraper-individual{
+		width: 100%; 
+		max-width: 400px;
+		height: 200px; 
+		margin: 50px 0 50px 0; 
+		display: inline-block;
+	}
+	
+	.section-02 .wraper-img{
+		width: 70px;
+		height: 70px;
+		margin: 0 auto;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
+	.section-02 .wraper-individual h2{
+		text-align: center;
+		padding: 30px 0;
+	}
+	
+	.section-02 .wraper-individual p{
+		text-align: justify;
+		font-size: 18px;
+	}
+
+	.section-03{
+		padding: 0;
+		max-width: 500px;
+	}
+
+	.section-03 .flex-mosaico{
+		display: inline-block; /*Altera a propriedade display */
+		
+	}
+
+	.section-03 .flex-mosaico .item-1{
+		width: 100%;
+		background-size: cover;
+		border-radius: 0px;
+		background-color: red;
+		height: 230px;
+		
+	} 
+
+	.section-03 .flex-mosaico .item-2 h2{
+		margin: 100px 2%;
+	}
+
+	.section-03 .flex-mosaico .item-2{
+		width: 100%;
+		
+		text-align: justify;
+		font-weight: 30px;
+		font-size: 18px;
+	}
+
+	.section-04 .part1{
+		float: none;
+		width: 100%;
+		padding: 44px 2%;
+	}
+	
+	.section-04 .part1 h2{
+		font-weight: 300;
+		font-style: italic;
+		font-size: 28px;
+		text-align: center;
+		margin-bottom: 22px;
+	}
+	
+	.section-04 .part1 p{
+		font-size: 16px;
+		line-height: 35px;
+		padding: 0 2%;
+	}
+
+	.section-04 .part2{
+		float: none;
+		width: 100%;
+		padding:16px 2%;
+		margin-top: 50px;
+	}
+	
+	.section-04 .sobre-autor{
+		float: left;
+		width: 100%;
+	}
+
+	.section-04 .titulo-autor{
+		margin-top: 20px;
+		float: none;
+		width: 100%;
+	}
+	
+	.section-04 .titulo-autor p{
+		font-size: 13px;
+		color: #232323;
+		font-style: italic;
+		font-weight: 300;
+		text-align: center;
+	}
+	
+	.section-04 .texto-autor p{
+		float: none;
+		width: 100%;
+		margin-top: 40px;
+		max-width: 500px;
+		padding: 0 10px 0 10px;
+	}
+
+	.section-04 .slider-bullets{
+
+		width: 100%;
+		float: none;
+		max-width: 160px; /*Para descbugar o tamanho*/
+		/*Alinhar 99% as bullets*/
+		position: relative;
+		transform: translateX(-20%);
+		left: 48%;
+		margin: 40px 0;
+		padding: 0;
+	}	
+
+	.section-05 .container{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.section-05 .title-02{
+		padding: 24px;
+		text-align: center;
+		margin: 120px 0;
+		font-size: 28px;
+	}
+
+	.section-05 .wraper-individual-02:nth-child(1){
+		margin-top: 0px;
+	}
+	
+	.section-05 .wraper-individual-02{
+		max-width: 300x;
+		margin: 0px;
+		margin-top: 100px;
+	}
+	
+}
+
+@media screen and (max-width: 800px){
+
+
+	.explicacao{
+		display: none;
+	}
+
+	header .menu-desktop{
+		font-size: 16px;
+	}
+
+	header .logo{
+		width: 210px;
+		height: 90px;
+	}
+
+	header{
+		
+		z-index: 10;
+		height: auto;
+		padding: 0px 2%;
+	}
+
+	.header-01{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.section-01{
+		width: 100%;
+		height: 500px;
+		min-height: 450px;
+		background-image: url('../images/bg.jpg');
+		background-size: cover;
+		
+		padding: 0;
+	}
+
+	.section-01 .container{
+		padding: 0 2%;
+	}
+	
+	.section-01 .explicacao{
+		float: right;
+		width: 390px;
+		height: 460px;
+		background-color: white;
+		border: 20px solid rgb(103, 104, 106,0.8);
+		padding: 40px 50px;
+		margin-top: 24px;
+		margin-right: 40px;
+	}
+	
+	.section-01 .explicacao h1{
+		text-align: center;
+		font-size: 27px;
+		color: rgb(38, 50, 90);
+		font-weight: 800;
+	}
+	
+	.section-01 .explicacao p{
+		margin-top: 22px;
+		text-align: justify;
+		color: rgb(164, 164, 166);
+		font-weight: 300;
+		font-size: 18px;
+	}
+
+	footer{
+		margin-top: 60px;
+	}
+	footer .part-01{
+		width: 100%;
+		float: none;
+	}
+	
+	footer ul{
+		width: 100%;
+		float: right;
+		margin-top:30px;
+	}
+
+	footer ul li:nth-of-type(1){
+		margin-top: 0;
+	}
+	
+	footer ul li{
+		margin-top: 40px;
+	}
+
+	footer .part-01 img{
+		float: none;
+		width: 32px;
+		height: 32px;
+		margin: 0 auto;
+		display: table-cell;
+    	vertical-align: middle
+	}
+	
+	footer .part-01 p{
+		line-height: 32px;
+		font-size: 16px;
+		padding: 0 2%;
+		text-align: center;
+	
+	}
+	
+	footer .part-02{
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+	}
+	
+	footer .part-02 p{
+		float: none;
+		text-align: center;
+
+	}
+	
+	footer .part-02 .map{
+		width: 100%;
+		float: none;
+		margin:0 auto;
+		padding:40px 2%;
+	}
+	
+	footer .part-02 .endereco{
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		max-width: 320px;
+		margin-top: 20px;
+	}
+
+	footer .part-02 img{
+
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (max-width:1050px){
+	.section-01 .explicacao{
+		margin-top: 100px;
+		float: right;
+		width: 330px;
+		height: 450px;
+		background-color: white;
+		border: 20px solid rgba(103, 104, 106,0.6);
+		padding: 10px 10px;
+		margin-right: 0px;
+	}
+	
+	.section-01 .explicacao h1{
+		margin-top: 16px;
+		font-size: 22px;
+
+	}
+	
+	.section-01 .explicacao p{
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.section-04 .slider-bullets span:nth-of-type(0){
+		margin-right: 0px;
+	}
+
+}
